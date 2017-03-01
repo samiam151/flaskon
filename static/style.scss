@@ -1,0 +1,37 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: yellowgreen;
+   color: white;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+header {
+   height: 60px;
+   background-color: green;
+
+   ul {
+      li {
+         display: inline-block;
+         list-style-type: none;
+
+         a {
+            color: white;
+            text-decoration: none;
+            
+            &:focus, 
+            &:visited {
+             color: white;
+             text-decoration: none;
+            }
+         }
+      }
+   }
+}

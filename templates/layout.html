@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>{% block title %}Flask Basics{% endblock %}</title>
+   <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+   <!-- Header & Nav -->
+   <header>
+      <ul class="container">
+         <li class='nav-button'><a href="{{ url_for('index') }}">Home</a></li>
+         <li class='nav-button'><a href="{{ url_for('about') }}">About</a></li>
+      </ul>
+   </header>
+   
+   <!-- Format Container -->
+   <div class="container">
+   
+      <!-- Content Block -->
+      {% block content %}{% endblock %}
+      <p>Brought to you by Nick Sam</p>
+
+   </div>
+
+</body>
+
+</html>

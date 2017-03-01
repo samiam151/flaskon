@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: yellowgreen;
+  color: white; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  height: 60px;
+  background-color: green; }
+  header ul li {
+    display: inline-block;
+    list-style-type: none; }
+    header ul li a {
+      color: white;
+      text-decoration: none; }
+      header ul li a:focus, header ul li a:visited {
+        color: white;
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
